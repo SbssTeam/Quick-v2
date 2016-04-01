@@ -1,4 +1,3 @@
-
 --An empty table for solving multiple kicking problem(thanks to @topkecleon )
 kicktable = {}
 
@@ -28,9 +27,6 @@ local function pre_process(msg)
     end
     if msg.from.last_name then
       redis:hset(hash, 'last_name', msg.from.last_name)
-    end
-    if msg.from.username then
-      redis:hset(hash, 'username', msg.from.username)
     end
   end
 

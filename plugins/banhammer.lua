@@ -1,4 +1,3 @@
-
 local function pre_process(msg)
   -- SERVICE MESSAGE
   if msg.action and msg.action.type then
@@ -308,24 +307,23 @@ end
 
 return {
   patterns = {
-    "^[!/]([Bb]anall) (.*)$",
-    "^[!/]([Bb]anall)$",
-    "^[!/]([Bb]anlist) (.*)$",
-    "^[!/]([Bb]anlist)$",
-    "^[!/]([Gg]banlist)$",
-    "^[!/]([Bb]an) (.*)$",
-    "^[!/]([Kk]ick)$",
-    "^[!/]([Uu]nban) (.*)$",
-    "^[!/]([Uu]nbanall) (.*)$",
-    "^[!/]([Uu]nbanall)$",
-    "^[!/]([Kk]ick) (.*)$",
-    "^[!/]([Kk]ickme)$",
-    "^[!/]([Bb]an)$",
-    "^[!/]([Uu]nban)$",
-    "^[!/]([Ii]d)$",
+    "^([Bb]anall) (.*)$",
+    "^([Bb]anall)$",
+    "^([Bb]anlist) (.*)$",
+    "^([Bb]anlist)$",
+    "^([Gg]banlist)$",
+    "^([Bb]an) (.*)$",
+    "^([Kk]ick)$",
+    "^([Uu]nban) (.*)$",
+    "^([Uu]nbanall) (.*)$",
+    "^([Uu]nbanall)$",
+    "^([Kk]ick) (.*)$",
+    "^([Kk]ickme)$",
+    "^([Bb]an)$",
+    "^([Uu]nban)$",
+    "^([Ii]d)$",
     "^!!tgservice (.+)$"
   },
   run = run,
   pre_process = pre_process
 }
-
