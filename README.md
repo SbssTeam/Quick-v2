@@ -1,4 +1,4 @@
-# QuickGuard
+# Quick-v2
 
 **An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SbssTeam/QuickQuard/blob/master/LICENSE)**.
 # Features
@@ -19,7 +19,7 @@
 * **And more!**
 
 **Table of Contents**
-- [QuickQuard](#QuickGuard)
+- [QuickQuard](#Quick-v2)
 - [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
